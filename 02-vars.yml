@@ -17,4 +17,4 @@
       ansible.builtin.debug:
         msg: URL =={{URL}}
       vars:
-        URL: task .example.com
+        URL: task.example.com
